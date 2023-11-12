@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* Add this code to your CSS */
+.App-header {
+  background-color: black; /* Change this line to set the background color to black */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_img {
+  width: 100%;
+  min-height: 100vh;
+  background: url(images/bg.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  color: #fff;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 2rem 2rem;
+  /* background-color: #fff; */
+  /* color: #1f2123; */
+  /* background: #fff; */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 4rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app div h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2196F3; /* Blue */
+  color: #e8dede;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  text-align: center;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 1rem;
+  gap: 20px;
+}
+
+.app .special {
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111210;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* Add more styles as needed */
+
+.more{
+  /* background-color: rgb(44, 38, 38); */
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  border-top: 2px solid rgba(18, 18, 18, 0.3);
+  display: inline-block;
+  background-color: #52f321; /* Blue */
+  color: #111210;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
